@@ -45,25 +45,26 @@ Blum is telegram web app mining on telegram, and blum bot is blum auto mining an
 
 4. Copy all folder
    ```
-   cp src/config/config_tmp.js src/config/config.js && cp src/config/proxy_list_tmp.js src/config/proxy_list.js
+   cp config/config_tmp.js config/config.js && cp config/proxy_list_tmp.js config/proxy_list.js
    ```
 
 5. Configure the config
    ```
-   nano src/config/config.js
+   nano config/config.js
    ```
    And add your telegram app id and hash there (if you use telegram sessions).
 
 6. Configure the proxy
    ```
-   nano src/config/proxy_list.js
+   nano config/proxy_list.js
    ```
    And fill up your proxy using provided format (it currently support only HTTPS proxy), if you don't use proxy then just let it blank [].
+
    ```
    export const proxyList = [];
    ```
 
-7. To start the app run
+8. To start the app run
    ```
    npm run start
    ```
