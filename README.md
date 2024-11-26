@@ -6,7 +6,7 @@ Blum is telegram web app mining on telegram, and blum bot is blum auto mining an
 
 ### REGISTER BLUM ACCOUNTS
 
-- [Register Blum on telegram](https://t.me/blum/app?startapp=ref_LlFGpzHIGi)
+- [Register Blum](https://t.me/blum/app?startapp=ref_LlFGpzHIGi)
 - Start bot `/start`
 - Launch Blum
 
@@ -78,7 +78,7 @@ Blum is telegram web app mining on telegram, and blum bot is blum auto mining an
    ```
 3. Install dependencies
    ```
-   npm Install
+   npm install
    ```
 4. Navigate to `blum-crypto-bot` directory.
 5. Make new folder named `accounts`.
@@ -106,7 +106,7 @@ Blum is telegram web app mining on telegram, and blum bot is blum auto mining an
 - Enter Telegram Query (you can get query by opening bot app on browser > inspect element > storage / application > session storage > telegram init params > copy tg web app data value).
 - Start The bot Again after account creation complete.
 6. After bot started choose option `3` start bot.
-7.  if something wrong with your Account, reset Account (option 2) first or just delete problematic a, to cancel running bot press `ctrl+c` twice, and start again [from No 1.](#setup-accounts)
+7. if something wrong with your Account, reset Account (option 2) first or just delete problematic a, to cancel running bot press `ctrl+c` twice, and start again [from No 1.](#setup-accounts)
    
 
 ## SESSION TROUBLESHOOT
